@@ -29,32 +29,26 @@ Follow these steps to get the project up and running on your local machine:
 
 ```bash
 git clone https://github.com/yourusername/disease-outbreak-prediction.git
-cd disease-outbreak-prediction
-2. Create a Virtual Environment
-bash
-Copy code
+cd disease-outbreak-prediction 
+```
+### 2. Create a Virtual Environment
+```bash
 python3 -m venv env
 source env/bin/activate
-On Windows, use:
-
-bash
-Copy code
-env\Scripts\activate
-3. Install Dependencies
-bash
-Copy code
+```
+### 3. Install Dependencies
+```bash
 pip install -r requirements.txt
+```
 If requirements.txt is not available, manually install the dependencies:
 
-bash
-Copy code
+```bash
 pip install pandas numpy scikit-learn matplotlib
-4. Run the Prediction Script
-bash
-Copy code
+```
+### 4. Run the Prediction Script
+```bash
 python disease_prediction.py
 Directory Structure
-Copy code
 disease-outbreak-prediction/
 │
 ├── disease_prediction.py
@@ -62,12 +56,13 @@ disease-outbreak-prediction/
 ├── README.md
 ├── requirements.txt
 └── LICENSE
-Usage
+```
+### Usage
 Ensure your dataset (Testing.csv) is placed in the root directory of the project.
 Run the prediction script as shown above.
 View the predictions and visualize the results.
 Configuration
 Make sure the dataset file Testing.csv is formatted correctly and located in the root directory.
 
-License
+### License
 This project is licensed under the Creative Commons Zero Universal License - see the LICENSE file for details.
