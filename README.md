@@ -3,7 +3,8 @@
 This project uses the Naive Bayes algorithm to predict disease outbreaks based on historical data. The aim is to provide a tool for early warning and effective response to potential outbreaks.
 
 ## Demo Screenshot
-![Demo Screenshot](C:\Users\Sugavaneshwaran\Downloads\Compressed\Diseaseprediction-master\Diseaseprediction-master\image.png)
+![image](https://github.com/user-attachments/assets/d47db2bd-2149-445d-9def-aadc4df12ca4)
+
 
 ## Features
 
